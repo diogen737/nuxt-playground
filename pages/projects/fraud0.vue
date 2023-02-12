@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    fraud0
+    <div class="">
+        fraud0
+    </div>
 </template>

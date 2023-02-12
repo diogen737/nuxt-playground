@@ -1,10 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  telemetry: {
+    enabled: false,
+  },
   app: {
-    pageTransition: {
-      name: 'page',
-      mode: 'out-in',
-    },
     head: {
       title: 'Netgineers',
       meta: [

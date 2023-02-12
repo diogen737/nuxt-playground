@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    extraETF
+    <div class="">
+        extraETF
+    </div>
 </template>

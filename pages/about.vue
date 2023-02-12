@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    about
+    <div class="">
+        about
+    </div>
 </template>
