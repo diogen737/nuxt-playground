@@ -760,6 +760,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
+  languageName: node
+  linkType: hard
+
+"@iconify/vue@npm:^4.0.2":
+  version: 4.1.0
+  resolution: "@iconify/vue@npm:4.1.0"
+  dependencies:
+    "@iconify/types": ^2.0.0
+  peerDependencies:
+    vue: ">=3"
+  checksum: b12dbe6a8f20b14ad5802ddcdd19ba4119ac9387c226efdc3ae2fa06310ec85a51621069f42621c3bda1f979a52c4ca2b27629fdef85a8cdbd7f757e17d48dff
+  languageName: node
+  linkType: hard
+
 "@ioredis/commands@npm:^1.1.1":
   version: 1.2.0
   resolution: "@ioredis/commands@npm:1.2.0"
@@ -1029,7 +1047,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.2.0, @nuxt/kit@npm:^3.0.0, @nuxt/kit@npm:^3.1.1, @nuxt/kit@npm:^3.2.0":
+"@nuxt/kit@npm:3.2.0, @nuxt/kit@npm:^3.0.0, @nuxt/kit@npm:^3.1.0, @nuxt/kit@npm:^3.1.1, @nuxt/kit@npm:^3.2.0":
   version: 3.2.0
   resolution: "@nuxt/kit@npm:3.2.0"
   dependencies:
@@ -2502,6 +2520,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"changelogen@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "changelogen@npm:0.4.1"
+  dependencies:
+    c12: ^1.1.0
+    consola: ^2.15.3
+    convert-gitmoji: ^0.1.3
+    execa: ^6.1.0
+    mri: ^1.2.0
+    node-fetch-native: ^1.0.1
+    pkg-types: ^1.0.1
+    scule: ^1.0.0
+    semver: ^7.3.8
+  bin:
+    changelogen: dist/cli.mjs
+  checksum: 55f3669530abd52e1bb6b9f2fdc983145193b103d50aa230253b36604c1fdd0f0261b87668b2d968cb844b8cdb1d1aab0587f64af39210732bdb43c1567aa3ba
+  languageName: node
+  linkType: hard
+
 "character-entities-html4@npm:^2.0.0":
   version: 2.1.0
   resolution: "character-entities-html4@npm:2.1.0"
@@ -2823,6 +2860,13 @@ __metadata:
   version: 1.0.5
   resolution: "content-type@npm:1.0.5"
   checksum: 566271e0a251642254cde0f845f9dd4f9856e52d988f4eb0d0dcffbb7a1f8ec98de7a5215fc628f3bce30fe2fb6fd2bc064b562d721658c59b544e2d34ea2766
+  languageName: node
+  linkType: hard
+
+"convert-gitmoji@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "convert-gitmoji@npm:0.1.3"
+  checksum: 9dd8107ae9af662f614828064caf8b9c5c8e3d2453abfb12f07fe7ea9448d7be2bbf3e3dce22177d3a265b96e89b374e4e1ed3cdc39730814344ea532f5699c6
   languageName: node
   linkType: hard
 
@@ -3941,6 +3985,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"execa@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "execa@npm:6.1.0"
+  dependencies:
+    cross-spawn: ^7.0.3
+    get-stream: ^6.0.1
+    human-signals: ^3.0.1
+    is-stream: ^3.0.0
+    merge-stream: ^2.0.0
+    npm-run-path: ^5.1.0
+    onetime: ^6.0.0
+    signal-exit: ^3.0.7
+    strip-final-newline: ^3.0.0
+  checksum: 1a4af799839134f5c72eb63d525b87304c1114a63aa71676c91d57ccef2e26f2f53e14c11384ab11c4ec479be1efa83d11c8190e00040355c2c5c3364327fa8e
+  languageName: node
+  linkType: hard
+
 "expand-template@npm:^2.0.3":
   version: 2.0.3
   resolution: "expand-template@npm:2.0.3"
@@ -4279,7 +4340,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^6.0.0":
+"get-stream@npm:^6.0.0, get-stream@npm:^6.0.1":
   version: 6.0.1
   resolution: "get-stream@npm:6.0.1"
   checksum: e04ecece32c92eebf5b8c940f51468cd53554dcbb0ea725b2748be583c9523d00128137966afce410b9b051eb2ef16d657cd2b120ca8edafcf5a65e81af63cad
@@ -4748,6 +4809,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"human-signals@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "human-signals@npm:3.0.1"
+  checksum: f252a7769c8094a5c9dc6772816bdb417b188820b04c8b42d0fc468e03a0ba905b1dd07afabe9385cc83504af1ccc2b985cd1e4aeeeb8e0029896c5af2e6f354
+  languageName: node
+  linkType: hard
+
 "humanize-ms@npm:^1.2.1":
   version: 1.2.1
   resolution: "humanize-ms@npm:1.2.1"
@@ -5163,6 +5231,13 @@ __metadata:
   version: 2.0.1
   resolution: "is-stream@npm:2.0.1"
   checksum: b8e05ccdf96ac330ea83c12450304d4a591f9958c11fd17bed240af8d5ffe08aedafa4c0f4cfccd4d28dc9d4d129daca1023633d5c11601a6cbc77521f6fae66
+  languageName: node
+  linkType: hard
+
+"is-stream@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "is-stream@npm:3.0.0"
+  checksum: 172093fe99119ffd07611ab6d1bcccfe8bc4aa80d864b15f43e63e54b7abc71e779acd69afdb854c4e2a67fdc16ae710e370eda40088d1cfc956a50ed82d8f16
   languageName: node
   linkType: hard
 
@@ -6291,6 +6366,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mimic-fn@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "mimic-fn@npm:4.0.0"
+  checksum: 995dcece15ee29aa16e188de6633d43a3db4611bcf93620e7e62109ec41c79c0f34277165b8ce5e361205049766e371851264c21ac64ca35499acb5421c2ba56
+  languageName: node
+  linkType: hard
+
 "mimic-response@npm:^3.1.0":
   version: 3.1.0
   resolution: "mimic-response@npm:3.1.0"
@@ -6768,6 +6850,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"npm-run-path@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "npm-run-path@npm:5.1.0"
+  dependencies:
+    path-key: ^4.0.0
+  checksum: dc184eb5ec239d6a2b990b43236845332ef12f4e0beaa9701de724aa797fe40b6bbd0157fb7639d24d3ab13f5d5cf22d223a19c6300846b8126f335f788bee66
+  languageName: node
+  linkType: hard
+
 "npmlog@npm:^5.0.1":
   version: 5.0.1
   resolution: "npmlog@npm:5.0.1"
@@ -6812,6 +6903,31 @@ __metadata:
   bin:
     nuxi: bin/nuxi.mjs
   checksum: 011fcd26ac79866fececf77d96fe7ff4cb26ab5a59efc241953cee657cfddf899639441782e254c437ea31dde034d7b7e7375ab93090f337d147c1c046f3133a
+  languageName: node
+  linkType: hard
+
+"nuxt-config-schema@npm:^0.4.4":
+  version: 0.4.4
+  resolution: "nuxt-config-schema@npm:0.4.4"
+  dependencies:
+    "@nuxt/kit": ^3.0.0
+    changelogen: ^0.4.1
+    defu: ^6.1.2
+    jiti: ^1.16.2
+    pathe: ^1.0.0
+    untyped: ^1.2.2
+  checksum: a624926fbabf691ccfec58600b0d7a787843d56f4cf02276e5173e063a6b88daa0c8d788696d46ce70812a6697d72d56e482165512b2baef95a0fc6c2d87862e
+  languageName: node
+  linkType: hard
+
+"nuxt-icon@npm:0.2.11":
+  version: 0.2.11
+  resolution: "nuxt-icon@npm:0.2.11"
+  dependencies:
+    "@iconify/vue": ^4.0.2
+    "@nuxt/kit": ^3.1.0
+    nuxt-config-schema: ^0.4.4
+  checksum: 356435613644f55008e0796ac5fc53435870417783264b0cda1f34f1c98a68f43364d4d609db2a14c6ce5a62f253728e6dcb99319f72713c2d1f0b203b94d8ed
   languageName: node
   linkType: hard
 
@@ -6926,6 +7042,15 @@ __metadata:
   dependencies:
     mimic-fn: ^2.1.0
   checksum: 2478859ef817fc5d4e9c2f9e5728512ddd1dbc9fb7829ad263765bb6d3b91ce699d6e2332eef6b7dff183c2f490bd3349f1666427eaba4469fba0ac38dfd0d34
+  languageName: node
+  linkType: hard
+
+"onetime@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "onetime@npm:6.0.0"
+  dependencies:
+    mimic-fn: ^4.0.0
+  checksum: 0846ce78e440841335d4e9182ef69d5762e9f38aa7499b19f42ea1c4cd40f0b4446094c455c713f9adac3f4ae86f613bb5e30c99e52652764d06a89f709b3788
   languageName: node
   linkType: hard
 
@@ -7128,6 +7253,13 @@ __metadata:
   version: 3.1.1
   resolution: "path-key@npm:3.1.1"
   checksum: 55cd7a9dd4b343412a8386a743f9c746ef196e57c823d90ca3ab917f90ab9f13dd0ded27252ba49dbdfcab2b091d998bc446f6220cd3cea65db407502a740020
+  languageName: node
+  linkType: hard
+
+"path-key@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "path-key@npm:4.0.0"
+  checksum: 8e6c314ae6d16b83e93032c61020129f6f4484590a777eed709c4a01b50e498822b00f76ceaf94bc64dbd90b327df56ceadce27da3d83393790f1219e07721d7
   languageName: node
   linkType: hard
 
@@ -8295,6 +8427,7 @@ __metadata:
     "@vue/eslint-config-typescript": 11.0.2
     eslint: 8.34.0
     nuxt: 3.2.0
+    nuxt-icon: 0.2.11
     pinia: 2.0.30
   languageName: unknown
   linkType: soft
@@ -8777,6 +8910,13 @@ __metadata:
   version: 2.0.0
   resolution: "strip-final-newline@npm:2.0.0"
   checksum: 69412b5e25731e1938184b5d489c32e340605bb611d6140344abc3421b7f3c6f9984b21dff296dfcf056681b82caa3bb4cc996a965ce37bcfad663e92eae9c64
+  languageName: node
+  linkType: hard
+
+"strip-final-newline@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "strip-final-newline@npm:3.0.0"
+  checksum: 23ee263adfa2070cd0f23d1ac14e2ed2f000c9b44229aec9c799f1367ec001478469560abefd00c5c99ee6f0b31c137d53ec6029c53e9f32a93804e18c201050
   languageName: node
   linkType: hard
 

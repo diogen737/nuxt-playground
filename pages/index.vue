@@ -47,5 +47,19 @@ const counter = useCounter();
         </button>
       </div>
     </div>
+
+    <div class="">
+      <h4 class="font-medium pb-4">working with icons:</h4>
+
+      <div class="flex flex-row gap-4 mt-3">
+        <Icon :name="'uil:calender'" :size="'40px'"></Icon>
+        <Icon :name="'uil:calender'" :size="'20px'"></Icon>
+        <Icon :name="'uil:calender'" :size="'10px'"></Icon>
+
+        <Icon :name="'mdi:unreal'" :size="'40px'"></Icon>
+        <Icon :name="'mdi:unreal'" :size="'20px'"></Icon>
+        <Icon :name="'mdi:unreal'" :size="'10px'"></Icon>
+      </div>
+    </div>
   </div>
 </template>
