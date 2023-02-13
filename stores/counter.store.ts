@@ -1,49 +1,30 @@
 const delay = (t: number) => new Promise((r) => setTimeout(r, t));
 
-export const useCounter = defineStore('counter', {
-  state: () => ({
-    n: 2,
-    incrementedTimes: 0,
-    decrementedTimes: 0,
-    numbers: [] as number[],
-  }),
+export const useCounter = defineStore('counter', () => {
+  const n = ref(2);
+  const incrementedTimes = ref(0);
+  const decrementedTimes = ref(0);
 
-  getters: {
-    double: (state) => state.n * 2,
-  },
+  function increment(amount = 1) {
+    incrementedTimes.value++;
+    n.value += amount;
+  }
 
-  actions: {
-    increment(amount = 1) {
-      this.incrementedTimes++;
-      this.n += amount;
-    },
+  async function decrementToZero(interval: number = 300) {
+    if (n.value <= 0) return;
 
-    changeMe() {
-      console.log('change me to test HMR');
-    },
+    while (n.value > 0) {
+      n.value--;
+      decrementedTimes.value++;
+      await delay(interval);
+    }
+  }
 
-    async fail() {
-      const n = this.n;
-      await delay(1000);
-      this.numbers.push(n);
-      await delay(1000);
-      if (this.n !== n) {
-        throw new Error('Someone changed n!');
-      }
-
-      return n;
-    },
-
-    async decrementToZero(interval: number = 300) {
-      if (this.n <= 0) return;
-
-      while (this.n > 0) {
-        this.$patch((state) => {
-          state.n--;
-          state.decrementedTimes++;
-        });
-        await delay(interval);
-      }
-    },
-  },
+  return {
+    n,
+    incrementedTimes,
+    decrementedTimes,
+    increment,
+    decrementToZero,
+  };
 });
