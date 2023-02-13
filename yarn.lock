@@ -1159,6 +1159,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pinia/nuxt@npm:0.4.6":
+  version: 0.4.6
+  resolution: "@pinia/nuxt@npm:0.4.6"
+  dependencies:
+    "@nuxt/kit": ^3.0.0
+    pinia: ">=2.0.27"
+  checksum: 570a918695922ee38b7ae741f0eac96a33917f251d112c83e4a2486cc768bf257825a6e497d7bd7852122a7afa42d4d8e3e79438497b8fa76f9cf50a89ecb73c
+  languageName: node
+  linkType: hard
+
 "@planetscale/database@npm:^1.5.0":
   version: 1.5.0
   resolution: "@planetscale/database@npm:1.5.0"
@@ -6548,6 +6558,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pinia@npm:2.0.30, pinia@npm:>=2.0.27":
+  version: 2.0.30
+  resolution: "pinia@npm:2.0.30"
+  dependencies:
+    "@vue/devtools-api": ^6.4.5
+    vue-demi: "*"
+  peerDependencies:
+    "@vue/composition-api": ^1.4.0
+    typescript: ">=4.4.4"
+    vue: ^2.6.14 || ^3.2.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+    typescript:
+      optional: true
+  checksum: 2522d3700e2d23f184ae65c36d764973ae4680e2fefbc7ca808524c706f5988ced1633606bfedae8c2a44042026528bac105a9437764d026d6323ddc40610e89
+  languageName: node
+  linkType: hard
+
 "pkg-types@npm:^1.0.1":
   version: 1.0.1
   resolution: "pkg-types@npm:1.0.1"
@@ -7607,7 +7636,9 @@ __metadata:
     "@nuxt/content": 2.4.3
     "@nuxt/image-edge": 1.0.0-27919678.2f5b64b
     "@nuxtjs/tailwindcss": 6.4.0
+    "@pinia/nuxt": 0.4.6
     nuxt: 3.2.0
+    pinia: 2.0.30
   languageName: unknown
   linkType: soft
 
@@ -8882,6 +8913,22 @@ __metadata:
   dependencies:
     ufo: ^1.0.1
   checksum: 5db31fc1792374cec9aa213fdb82a9cc0e286c628a032ce5c628366279a894c5432aba1192412051f6b7a69296287e3eec12411c211b8bcf11321825885dc7c7
+  languageName: node
+  linkType: hard
+
+"vue-demi@npm:*":
+  version: 0.13.11
+  resolution: "vue-demi@npm:0.13.11"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: 0fbe9bf8ab7fe498ffa2bbd0cfc8f6f43a6bbaa5eda3e20ef1b70dca7c8b0ddb216a7ff2f632b694fe0735805638975abb441c621ec0bd2e6d4656353f316c15
   languageName: node
   linkType: hard
 

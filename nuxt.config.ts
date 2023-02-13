@@ -13,12 +13,19 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/image-edge',
     '@nuxtjs/tailwindcss',
+    '@pinia/nuxt',
   ],
+  imports: {
+    dirs: ['./stores'],
+  },
   content: {
     // https://content.nuxtjs.org/api/configuration
   },
   image: {
     // Options
+  },
+  pinia: {
+    autoImports: ['defineStore', 'storeToRefs'],
   },
   tailwindcss: {
     // Options
