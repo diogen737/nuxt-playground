@@ -1,9 +1,13 @@
 <template>
-  <div>
-    <!-- <NuxtWelcome /> -->
+  <div class="min-h-screen text-gray-50 bg-gray-900">
     <AppHeader />
 
-    <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" />
+    <div class="p-6 space-y-10">
+      <div>(APP CONTENT)</div>
+      <hr />
+      <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" />
+      <hr />
+    </div>
 
     <AppFooter />
   </div>
@@ -12,21 +16,11 @@
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.25s;
+  transition: all 0.15s;
 }
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
   filter: blur(1rem);
 }
-
-/* .rotate-enter-active,
-.rotate-leave-active {
-  transition: all 0.4s;
-}
-.rotate-enter-from,
-.rotate-leave-to {
-  opacity: 0;
-  transform: rotate3d(1, 1, 1, 15deg);
-} */
 </style>

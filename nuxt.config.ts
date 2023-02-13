@@ -12,13 +12,17 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    '@nuxt/content',
     '@nuxt/image-edge',
     '@nuxtjs/tailwindcss',
   ],
-  tailwindcss: {
-    // Options
+  content: {
+    // https://content.nuxtjs.org/api/configuration
   },
   image: {
+    // Options
+  },
+  tailwindcss: {
     // Options
   },
 });
