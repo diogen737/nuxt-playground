@@ -4,10 +4,10 @@
   <div class="min-h-screen text-gray-50 bg-gray-900">
     <AppHeader />
 
-    <div class="p-6 space-y-10">
-      <div>(APP CONTENT)</div>
+    <div class="mx-4 py-6 space-y-10">
+      <div class="px-6">(APP CONTENT)</div>
       <hr />
-      <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" />
+      <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" class="px-6" />
       <hr />
     </div>
 
