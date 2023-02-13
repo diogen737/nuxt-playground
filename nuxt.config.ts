@@ -5,10 +5,8 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Netgineers',
-      meta: [
-        { name: 'description', content: 'My amazing site.' }
-      ]
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no',
     },
   },
   modules: [
