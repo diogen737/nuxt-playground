@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
   },
   image: {
+    provider: 'vercel',
     presets: {
       avatar: {
         modifiers: {
