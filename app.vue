@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="min-h-screen text-gray-50 bg-gray-900">
+  <div class="min-h-screen">
     <AppHeader />
 
     <div class="mx-4 py-6 space-y-10">

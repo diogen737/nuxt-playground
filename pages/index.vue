@@ -12,7 +12,7 @@ const counter = useCounter();
 </script>
 
 <template>
-  <div class="grid gap-5">
+  <div class="grid gap-16">
     <div class="">
       <span class="text-emerald-400">home is fully custom</span>
     </div>
@@ -60,6 +60,16 @@ const counter = useCounter();
         <Icon :name="'mdi:unreal'" :size="'20px'"></Icon>
         <Icon :name="'mdi:unreal'" :size="'10px'"></Icon>
       </div>
+    </div>
+
+    <div class="">
+      <h4 class="font-medium pb-4">working with theme:</h4>
+
+      <h1>Color mode: {{ $colorMode.value }}</h1>
+
+      <button class="p-2" @click="$colorMode.value = $colorMode.value === 'light' ? 'dark' : 'light'">
+        <Icon :name="$colorMode.value === 'light' ? 'ri:moon-line' : 'ri:sun-line'" :size="'40px'" class="mt-2"></Icon>
+      </button>
     </div>
   </div>
 </template>

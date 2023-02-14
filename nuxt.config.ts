@@ -12,12 +12,17 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/image-edge',
+    '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     'nuxt-icon',
   ],
   imports: {
     dirs: ['./stores'],
+  },
+  colorMode: {
+    preference: 'dark',
+    classSuffix: '',
   },
   content: {
     // https://content.nuxtjs.org/api/configuration
@@ -29,6 +34,9 @@ export default defineNuxtConfig({
     autoImports: ['defineStore', 'storeToRefs'],
   },
   tailwindcss: {
-    // Options
+    config: {
+      content: [],
+      darkMode: 'class',
+    },
   },
 });

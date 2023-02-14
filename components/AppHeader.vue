@@ -7,13 +7,13 @@
           <li class="py-2 px-6">
             (APP HEADER)
           </li>
-          <li class="py-2 px-6 text-sky-400 hover:underline">
+          <li class="py-2 px-6 text-sky-600 dark:text-sky-400 hover:underline">
             <NuxtLink to="/projects/extraetf">xetf project</NuxtLink>
           </li>
-          <li class="py-2 px-6 text-sky-400 hover:underline">
+          <li class="py-2 px-6 text-sky-600 dark:text-sky-400 hover:underline">
             <NuxtLink to="/projects/fraud0">f0 project</NuxtLink>
           </li>
-          <li class="py-2 px-6 text-sky-400 hover:underline">
+          <li class="py-2 px-6 text-sky-600 dark:text-sky-400 hover:underline">
             <NuxtLink to="/about">about</NuxtLink>
           </li>
         </ul>

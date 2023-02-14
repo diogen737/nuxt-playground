@@ -1211,6 +1211,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/color-mode@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@nuxtjs/color-mode@npm:3.2.0"
+  dependencies:
+    "@nuxt/kit": ^3.0.0
+    lodash.template: ^4.5.0
+    pathe: ^1.0.0
+  checksum: d6e24bfc2127c8f344070e911ad7d7400b45b2f7aa29305d10be09b1daa6fdfefe7f617198e8fb3c0b71a3bda8f097799e1c78831d18c7a7b1b3684d35e47e2c
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/tailwindcss@npm:6.4.0":
   version: 6.4.0
   resolution: "@nuxtjs/tailwindcss@npm:6.4.0"
@@ -8420,6 +8431,7 @@ __metadata:
     "@nuxt/content": 2.4.3
     "@nuxt/eslint-config": 0.1.1
     "@nuxt/image-edge": 1.0.0-27919678.2f5b64b
+    "@nuxtjs/color-mode": ^3.2.0
     "@nuxtjs/tailwindcss": 6.4.0
     "@pinia/nuxt": 0.4.6
     "@rushstack/eslint-patch": 1.2.0
