@@ -65,10 +65,10 @@ const counter = useCounter();
     <div class="">
       <h4 class="font-medium pb-4">working with theme:</h4>
 
-      <h1>Color mode: {{ $colorMode.value }}</h1>
+      <h1>Color mode: {{ $colorMode.preference }}</h1>
 
-      <button class="p-2" @click="$colorMode.value = $colorMode.value === 'light' ? 'dark' : 'light'">
-        <Icon :name="$colorMode.value === 'light' ? 'ri:moon-line' : 'ri:sun-line'" :size="'40px'" class="mt-2"></Icon>
+      <button class="p-2" @click="$colorMode.preference = $colorMode.preference === 'light' ? 'dark' : 'light'">
+        <Icon :name="$colorMode.preference === 'light' ? 'ri:moon-line' : 'ri:sun-line'" :size="'40px'" class="mt-2"></Icon>
       </button>
     </div>
   </div>
