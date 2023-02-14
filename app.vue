@@ -3,6 +3,7 @@
 <template>
   <div class="min-h-screen">
     <AppHeader />
+    <NuxtLoadingIndicator></NuxtLoadingIndicator>
 
     <div class="mx-4 py-6 space-y-10">
       <div class="px-6">(APP CONTENT)</div>
