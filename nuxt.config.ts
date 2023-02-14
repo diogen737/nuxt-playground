@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   telemetry: {
     enabled: false,
   },
+  nitro: {
+    preset: 'vercel',
+  },
   app: {
     head: {
       charset: 'utf-8',
