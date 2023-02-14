@@ -31,7 +31,16 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
   },
   image: {
-    // Options
+    presets: {
+      avatar: {
+        modifiers: {
+          format: 'webp',
+          width: 100,
+          height: 100,
+          fit: 'inside'
+        }
+      }
+    }
   },
   pinia: {
     autoImports: ['defineStore', 'storeToRefs'],

@@ -71,5 +71,15 @@ const counter = useCounter();
         <Icon :name="$colorMode.preference === 'light' ? 'ri:moon-line' : 'ri:sun-line'" :size="'40px'" class="mt-2"></Icon>
       </button>
     </div>
+
+    <div class="">
+      <h4 class="font-medium pb-4">working with images:</h4>
+
+      <p class="mb-2">sizes + webp</p>
+      <nuxt-img src="/test.jpg" format="webp" :quality="80" sizes="sm:100vw md:50vw lg:400px" />
+
+      <p class="my-2">preset</p>
+      <nuxt-img src="/test.jpg" preset="avatar" />
+    </div>
   </div>
 </template>
