@@ -31,17 +31,7 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
   },
   image: {
-    provider: 'vercel',
-    presets: {
-      avatar: {
-        modifiers: {
-          format: 'webp',
-          width: 100,
-          height: 100,
-          fit: 'inside'
-        }
-      }
-    }
+    // https://v1.image.nuxtjs.org/configuration
   },
   pinia: {
     autoImports: ['defineStore', 'storeToRefs'],

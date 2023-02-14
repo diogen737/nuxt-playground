@@ -78,8 +78,8 @@ const counter = useCounter();
       <p class="mb-2">sizes + webp</p>
       <nuxt-img src="/test.jpg" format="webp" :quality="80" sizes="sm:100vw md:50vw lg:400px" />
 
-      <p class="my-2">preset</p>
-      <nuxt-img src="/test.jpg" preset="avatar" />
+      <p class="my-2">fit</p>
+      <nuxt-img src="/test.jpg" height="100" width="100" fit="inside" />
     </div>
   </div>
 </template>
